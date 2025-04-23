@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <div class="contact-container">
+      <h1 class="section-title">Get in <span>Touch</span></h1>
+      <p class="contact-description">
+        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to contact me via the form or the details below.
+      </p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> rithiksharma006@gmail.com</p>
+        <p><strong>Phone:</strong> +91 8894066915</p>
+        <p><strong>Location:</strong> Delhi, India</p>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/mjkylvbz" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit" class="btn-modern">Send Message</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
